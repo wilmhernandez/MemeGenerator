@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background: #63727a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 25px;
+  border-radius: 20px;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  color: #fff;
+  background: #000;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.container h1 {
+  text-align: center;
+  padding: 20px;
+  background: #5a2d81;
+  color: #fff;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container ul li label {
+  width: 15%;
+  text-align: right;
+  margin: 10px;
+}
+
+.container ul li input {
+  width: 70%;
+  margin: 10px;
+}
+
+.container .submit {
+  align-items: center;
+  background: #000;
+  color: #fff;
+  width: 30%;
+  height: 24px;
+}
+
+.memes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.meme {
+  background-image: url("https://img.freepik.com/free-photo/selective-focus-black-white-adorable-cat-with-its-tongue-out_181624-35744.jpg?w=1060&t=st=1678034149~exp=1678034749~hmac=1dee810e2b37a1a66aa2248d07ad06ffe147e4ed177447412334dd04eaebac99");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  border: 5px solid #000;
+  justify-content: space-between;
+}
+
+.top-text {
+  font-size: 4.2rem;
+  color: #fff;
+  -webkit-text-stroke: 2px #000000;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+.bottom-text {
+  font-size: 4.2rem;
+  color: #fff;
+  -webkit-text-stroke: 2px #000000;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+.remove {
+  font-size: 3.6rem;
+  color: #ff0000;
+  -webkit-text-stroke: 2px #000000;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}

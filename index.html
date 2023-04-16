@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css" />
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" class="meme-form">
+        <h1>Create Your Own Memes</h1>
+        <ul>
+          <li>
+            <label for="url">Image URL:</label>
+            <input type="text" name="url" id="url"/>
+          </li>
+          <li>
+            <label for="top-text">Text for Top:</label>
+            <input type="text" name="top-text" id="top-text"/>
+          </li>
+          <li>
+            <label for="bot-text">Text for Bottom:</label>
+              <input type="text" name="bot-text" id="bot-text"/>
+          </li>
+          <li>
+            <input type="submit" class="submit" value="Generate Meme" />
+          </li>
+        </ul>
+      </form>
+    </div>
+    <section class="memes">
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
